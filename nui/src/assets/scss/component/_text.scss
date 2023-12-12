@@ -1,0 +1,12 @@
+/*
+ * Text
+ */
+.text {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: hsl(240 5% 64.9%);
+
+    b {
+        color: map-get($colors, primary);
+    }
+}

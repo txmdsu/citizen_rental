@@ -1,0 +1,44 @@
+{
+  "fr": {
+    "CarTitle": "Voitures",
+    "CarText": "Sélectionnez une des voitures disponibles à la <b>location</b>.",
+    "BikeTitle": "Motos",
+    "BikeText": "Sélectionnez une des motos disponibles à la <b>location</b>."
+  },
+  "en": {
+    "CarTitle": "Cars",
+    "CarText": "Select one of the available cars for <b>rental</b>.",
+    "BikeTitle": "Bikes",
+    "BikeText": "Select one of the available bikes for <b>rental</b>."
+  },
+  "es": {
+    "CarTitle": "Coches",
+    "CarText": "Selecciona uno de los coches disponibles para <b>alquilar</b>.",
+    "BikeTitle": "Motos",
+    "BikeText": "Selecciona una de las motos disponibles para <b>alquilar</b>."
+  },
+  "de": {
+    "CarTitle": "Autos",
+    "CarText": "Wählen Sie eines der verfügbaren Autos zur <b>Vermietung</b> aus.",
+    "BikeTitle": "Fahrräder",
+    "BikeText": "Wählen Sie eines der verfügbaren Fahrräder zur <b>Vermietung</b> aus."
+  },
+  "it": {
+    "CarTitle": "Auto",
+    "CarText": "Seleziona una delle auto disponibili per il <b>noleggio</b>.",
+    "BikeTitle": "Biciclette",
+    "BikeText": "Seleziona una delle biciclette disponibili per il <b>noleggio</b>."
+  },
+  "pt": {
+    "CarTitle": "Carros",
+    "CarText": "Selecione um dos carros disponíveis para <b>aluguel</b>.",
+    "BikeTitle": "Bicicletas",
+    "BikeText": "Selecione uma das bicicletas disponíveis para <b>aluguel</b>."
+  },
+  "ru": {
+    "CarTitle": "Автомобили",
+    "CarText": "Выберите один из доступных автомобилей для <b>аренды</b>.",
+    "BikeTitle": "Велосипеды",
+    "BikeText": "Выберите один из доступных велосипедов для <b>аренды</b>."
+  }
+}

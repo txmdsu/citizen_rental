@@ -1,0 +1,102 @@
+/*
+ * Modal
+ */
+.app-modal {
+  padding-left: 2rem;
+
+  .modal {
+    &__wrapper {
+      position: absolute;
+      max-width: 450px;
+      min-width: 450px;
+      top: 50%;
+
+      transform: translateY(-50%);
+
+      transition: ease-in-out 0.2s;
+    }
+
+    &__menu {
+      display: flex;
+      gap: 45px;
+
+      align-items: stretch;
+      justify-content: space-between;
+    }
+
+    &__box {
+      margin-top: calc(2rem * calc(1 - 0));
+
+      background: map-get($colors, background);
+      border-radius: 0.5rem;
+    }
+
+    &__inner {
+      padding: 1.5rem;
+    }
+
+    &__title {
+      margin-bottom: 6px;
+    }
+
+    &__text {
+    }
+
+    // &__vehicles {
+    //   display: flex;
+    //   gap: 10px;
+    //   margin-top: 2.5rem;
+
+    //   align-items: stretch;
+    //   flex-direction: column;
+
+    //   input {
+    //     display: none;
+
+    //     &:checked ~ label {
+    //       border-color: map-get($colors, primary);
+    //     }
+    //   }
+    // }
+
+    // &__vehicle {
+    //   display: flex;
+    //   gap: 35px;
+    //   padding: 1.5rem 1rem;
+
+    //   justify-content: space-between;
+    //   align-items: center;
+    //   border-radius: 0.5rem;
+    //   border: solid 2px map-get($colors, border-muted);
+
+    //   transition: ease-in-out 0.2s;
+    //   cursor: pointer;
+
+    //   &:hover,
+    //   &:focus {
+    //     border-color: lighten(map-get($colors, border-muted), 25%);
+    //   }
+    // }
+
+    // &__label,
+    // &__price {
+    //   font-size: 0.875rem;
+    //   font-weight: 500;
+    // }
+
+    // &__label {
+    //   color: #fff;
+    // }
+
+    // &__price {
+    //   color: map-get($colors, primary);
+    // }
+
+    &__button {
+      padding: 8px 30px;
+
+      margin-top: calc(2rem * calc(1 - 0));
+      width: 100%;
+    }
+  }
+}
